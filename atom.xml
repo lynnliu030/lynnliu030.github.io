@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-05T12:47:15.922Z</updated>
+  <updated>2018-06-05T12:57:18.340Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/06/05/Creating-Personal-Blog-Using-Github-Hexo/"/>
     <id>http://yoursite.com/2018/06/05/Creating-Personal-Blog-Using-Github-Hexo/</id>
     <published>2018-06-05T11:02:34.000Z</published>
-    <updated>2018-06-05T12:47:15.922Z</updated>
+    <updated>2018-06-05T12:57:18.340Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>This is my first blog :) </p><p>In this article, I record my process of creating a personal blog using Github and Hexo. My approach could be applied to create any websites, not just blog. I will also write down some of the problems I met with and the solutions I used during this process, which might be helpful for somebody who visits this website. </p></blockquote><blockquote><p>##Hexo</p><p>###What is Hexo?<br>Hexo is a fast, simple and powerful blog framework. Click <a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a> to get more information</p><p>###Install Hexo<br>We’ll use Hexo to help us create our personal website. </p></blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>This is my first blog :) </p><p>In this article, I record my process of creating a personal blog using Github and Hexo. My approach could be applied to create any websites, not just blog. I will also write down some of the problems I met with and the solutions I used during this process, which might be helpful for somebody who visits this website. </p></blockquote><blockquote><p>##Hexo##</p><p>###What is Hexo?###<br>Hexo is a fast, simple and powerful blog framework. Click <a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a> to get more information</p><p>###Install Hexo###<br>We’ll use Hexo to help us create our personal website. </p></blockquote>]]></content>
     
     <summary type="html">
     
