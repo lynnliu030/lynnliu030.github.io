@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-05T13:16:10.634Z</updated>
+  <updated>2018-06-05T13:20:13.490Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/06/05/Creating-Personal-Blog-Using-Github-Hexo/"/>
     <id>http://yoursite.com/2018/06/05/Creating-Personal-Blog-Using-Github-Hexo/</id>
     <published>2018-06-05T11:02:34.000Z</published>
-    <updated>2018-06-05T13:16:10.634Z</updated>
+    <updated>2018-06-05T13:20:13.490Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><h2 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h2><p>This is my first blog :) </p><p>In this article, I record my process of creating a personal blog using Github and Hexo. My approach could be applied to create any websites, not just blog. I will also write down some of the problems I met with and the solutions I used during this process, which might be helpful for somebody who visits this website. </p></blockquote><blockquote><h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><h3 id="What-is-Hexo"><a href="#What-is-Hexo" class="headerlink" title="What is Hexo?"></a>What is Hexo?</h3><p>Hexo is a fast, simple and powerful blog framework; it’s also a static site generator. Click <a href="https://hexo.io/" target="_blank" rel="noopener">hexo website</a> to get more information.</p><h3 id="Instalation"><a href="#Instalation" class="headerlink" title="Instalation"></a>Instalation</h3><p>We’ll use Hexo to help us create our personal website. It only take a few minutes to set up. Click  </p></blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote><h2 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h2><p>This is my first blog :) </p><p>In this article, I record my process of creating a personal blog using Github and Hexo. My approach could be applied to create any websites, not just blog. I will also write down some of the problems I met with and the solutions I used during this process, which might be helpful for somebody who visits this website. </p></blockquote><blockquote><h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><h3 id="What-is-Hexo"><a href="#What-is-Hexo" class="headerlink" title="What is Hexo?"></a>What is Hexo?</h3><p>Hexo is a fast, simple and powerful blog framework; it’s also a static site generator. Click <a href="https://hexo.io/" target="_blank" rel="noopener">hexo website</a> to get more information.</p><h3 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h3><p>We’ll use Hexo to help us create our personal website. It only take a few minutes to set up. Click  </p></blockquote>]]></content>
     
     <summary type="html">
     
