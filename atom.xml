@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-05T16:33:21.677Z</updated>
+  <updated>2018-06-05T17:36:37.124Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linear Algebra Learning Notes</title>
+    <link href="http://yoursite.com/2018/06/06/Linear-Algebra-Learning-Notes/"/>
+    <id>http://yoursite.com/2018/06/06/Linear-Algebra-Learning-Notes/</id>
+    <published>2018-06-05T17:30:59.000Z</published>
+    <updated>2018-06-05T17:36:37.124Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Learning-Materials"><a href="#Learning-Materials" class="headerlink" title="Learning Materials:"></a>Learning Materials:</h3><h4 id="MITOpenCourseWare"><a href="#MITOpenCourseWare" class="headerlink" title="MITOpenCourseWare"></a><a href="https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/syllabus/" target="_blank" rel="noopener">MITOpenCourseWare</a></h4><h3 id="Planning-Learnning-days-15days"><a href="#Planning-Learnning-days-15days" class="headerlink" title="Planning Learnning days: 15days"></a>Planning Learnning days: <em>15days</em></h3><h4 id="Update-several-notes-everyday"><a href="#Update-several-notes-everyday" class="headerlink" title="Update several notes everyday"></a><em>Update several notes everyday</em></h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Learning-Materials&quot;&gt;&lt;a href=&quot;#Learning-Materials&quot; class=&quot;headerlink&quot; title=&quot;Learning Materials:&quot;&gt;&lt;/a&gt;Learning Materials:&lt;/h3&gt;&lt;h4 id=
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Creating Personal Blog Using Github + Hexo</title>
