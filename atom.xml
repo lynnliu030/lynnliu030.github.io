@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-05T17:49:47.444Z</updated>
+  <updated>2018-06-05T17:52:12.197Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,16 +21,16 @@
     <link href="http://yoursite.com/2018/06/06/Linear-Algebra-Learning-Notes/"/>
     <id>http://yoursite.com/2018/06/06/Linear-Algebra-Learning-Notes/</id>
     <published>2018-06-05T17:30:59.000Z</published>
-    <updated>2018-06-05T17:49:47.444Z</updated>
+    <updated>2018-06-05T17:52:12.197Z</updated>
     
-    <content type="html"><![CDATA[<p>&lt; !–more–&gt;</p><h4 id="Learning-Materials"><a href="#Learning-Materials" class="headerlink" title="Learning Materials:"></a>Learning Materials:</h4><p><a href="https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/syllabus/" target="_blank" rel="noopener">MITOpenCourseWare</a></p><h4 id="Planning-Learnning-days"><a href="#Planning-Learnning-days" class="headerlink" title="Planning Learnning days:"></a>Planning Learnning days:</h4><p><em>15days</em></p><p><em>Update several notes everyday</em></p>]]></content>
+    <content type="html"><![CDATA[<a id="more"></a><h4 id="Learning-Materials"><a href="#Learning-Materials" class="headerlink" title="Learning Materials:"></a>Learning Materials:</h4><p><a href="https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/syllabus/" target="_blank" rel="noopener">MITOpenCourseWare</a></p><h4 id="Planning-Learnning-days"><a href="#Planning-Learnning-days" class="headerlink" title="Planning Learnning days:"></a>Planning Learnning days:</h4><p><em>15days</em></p><p><em>Update several notes everyday</em></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&amp;lt; !–more–&amp;gt;&lt;/p&gt;
-&lt;h4 id=&quot;Learning-Materials&quot;&gt;&lt;a href=&quot;#Learning-Materials&quot; class=&quot;headerlink&quot; title=&quot;Learning Materials:&quot;&gt;&lt;/a&gt;Learnin
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h4 id=&quot;Learning-Materials&quot;&gt;&lt;a href=&quot;#Learning-Materials&quot; class=&quot;headerlink&quot; title=&quot;Learning Materials:&quot;&gt;&lt;/a&gt;Learning Mate
       
     
     </summary>
