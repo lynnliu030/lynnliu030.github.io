@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-06T15:20:38.126Z</updated>
+  <updated>2018-06-06T18:51:39.796Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/06/06/Linear-Algebra-Learning-Notes/"/>
     <id>http://yoursite.com/2018/06/06/Linear-Algebra-Learning-Notes/</id>
     <published>2018-06-05T17:30:59.000Z</published>
-    <updated>2018-06-06T15:20:38.126Z</updated>
+    <updated>2018-06-06T18:51:39.796Z</updated>
     
     <content type="html"><![CDATA[<p>Brief notes of MIT open course Linear Algebra. Learning Period: June 6th to June 21st(2018). Intro.</p><a id="more"></a><h4 id="Learning-Materials"><a href="#Learning-Materials" class="headerlink" title="Learning Materials:"></a>Learning Materials:</h4><p><a href="https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/syllabus/" target="_blank" rel="noopener">MITOpenCourseWare</a></p><h4 id="Planning-Learnning-days"><a href="#Planning-Learnning-days" class="headerlink" title="Planning Learnning days:"></a>Planning Learnning days:</h4><p><em>15days</em></p><p><em>Update several notes everyday</em></p>]]></content>
     
@@ -34,7 +34,7 @@
     
       <category term="math" scheme="http://yoursite.com/tags/math/"/>
     
-      <category term="Linear Algebra" scheme="http://yoursite.com/tags/Linear-Algebra/"/>
+      <category term="linear algebra" scheme="http://yoursite.com/tags/linear-algebra/"/>
     
   </entry>
   
@@ -43,7 +43,7 @@
     <link href="http://yoursite.com/2018/06/05/Creating-Personal-Blog-Using-Github-Hexo/"/>
     <id>http://yoursite.com/2018/06/05/Creating-Personal-Blog-Using-Github-Hexo/</id>
     <published>2018-06-05T11:02:34.000Z</published>
-    <updated>2018-06-06T15:22:47.918Z</updated>
+    <updated>2018-06-06T18:51:25.453Z</updated>
     
     <content type="html"><![CDATA[<p>A brief guideline of creating a personal website. This guideline includes the solutions to some common errors. </p><a id="more"></a><h1 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h1><p>This is my first blog :) </p><p>In this article, I will record my process of creating a personal blog<br>using Github and Hexo. This approach could be used to create any websites, not just blog. I will also discuss about some problems I met with and the solutions I used during this process, which might be helpful for somebody who visits this website. Hope you enjoy the charm of creation.</p><h1 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h1><ul><li>Github</li><li>Hexo (Node.js, Git)</li><li>Website Creation</li><li>Markdown</li><li>Website Optimization</li></ul><h1 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h1><blockquote><p>Github Pages is a static site hosting service designed to host your personal, organization, or project pages directly from a Github repository.</p></blockquote><p>If you don’t have a Github account, create one <a href="https://github.com/" target="_blank" rel="noopener">here</a>! We need it to build our website. </p><h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><h2 id="What-is-Hexo"><a href="#What-is-Hexo" class="headerlink" title="What is Hexo?"></a>What is Hexo?</h2><p> Hexo is a fast, simple and powerful blog framework; it’s also a static site generator. Click <a href="https://hexo.io/" target="_blank" rel="noopener">hexo website</a> to get more information.</p><h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><p>We’ll use Hexo to help us create our personal website. Click <a href="https://hexo.io/" target="_blank" rel="noopener">here</a> to watch the video. Or, just follow the steps below. We need to install a couple of things first.</p><h3 id="1-Install-Node-js"><a href="#1-Install-Node-js" class="headerlink" title="1. Install Node.js"></a>1. Install Node.js</h3><p>Click <a href="https://link.zhihu.com/?target=https%3A//nodejs.org/en/download/" target="_blank" rel="noopener">DownLoad_Nodejs</a> to download Node.js.</p><p>Or choose one of the links below.</p><ul><li><a href="https://nodejs.org/dist/v4.2.3/node-v4.2.3-x86.msi" target="_blank" rel="noopener">Windows Installer 32-bit</a></li><li><a href="https://nodejs.org/dist/v4.2.3/node-v4.2.3-x64.msi" target="_blank" rel="noopener">Windows Installer 64-bit</a></li></ul><h3 id="2-Install-Git"><a href="#2-Install-Git" class="headerlink" title="2. Install Git"></a>2. Install Git</h3><p>Click <a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git</a> to download.</p><p>Mac: See instruction in the <a href="https://hexo.io/docs/" target="_blank" rel="noopener">hexo</a> website.</p><h2 id="Webstie-Optimization"><a href="#Webstie-Optimization" class="headerlink" title="Webstie Optimization"></a>Webstie Optimization</h2><h3 id="1-Add-Favicon-to-Hexo-Blog"><a href="#1-Add-Favicon-to-Hexo-Blog" class="headerlink" title="1. Add Favicon to Hexo Blog"></a>1. Add Favicon to Hexo Blog</h3><blockquote><p>It depends on theme you’re using. Check theme documentation and the source.</p></blockquote><p>Here, I would like to introduce the way to change Favicon under the nexT theme. (note: Favicon means the website icon)</p><p>The size of favicon could be 16x16, or 32x32. You could download the icon from any websites you like first. Notice, the picture must be the right size. Or you could use this <a href="http://www.faviconico.org/" target="_blank" rel="noopener">Favicon Generator</a> to convert your images into an icon favicon.ico.</p><p>If you didn’t use the website above, please remember to change the name of your image to “favicon.ico”. </p><p>Then, put this icon in /themes/next/source/images, and revise the file called “_config.yml” inside the “themes/next” folder.</p><h3 id="2-Text-Alignment"><a href="#2-Text-Alignment" class="headerlink" title="2. Text Alignment"></a>2. Text Alignment</h3>]]></content>
     
@@ -54,9 +54,9 @@
     </summary>
     
     
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
-      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
+      <category term="github" scheme="http://yoursite.com/tags/github/"/>
     
   </entry>
   
