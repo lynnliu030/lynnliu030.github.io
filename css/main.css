@@ -187,7 +187,7 @@ body {
   position: relative;
   font-family: "Microsoft YaHei", Verdana, sans-serif;
   font-size: 16px;
-  line-height: 2;
+  line-height: 16px;
   color: #555;
   background: #f5f7f9;
 }
@@ -1823,7 +1823,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0b9188;
+  background: #ff3973;
 }
 .links-of-blogroll {
   font-size: 13px;
