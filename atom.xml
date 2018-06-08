@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-06T23:26:29.542Z</updated>
+  <updated>2018-06-08T09:07:32.412Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Linear Algebra Learning Notes(1)</title>
+    <title>Linear Algebra Learning Notes</title>
     <link href="http://yoursite.com/2018/06/06/Linear-Algebra-Learning-Notes/"/>
     <id>http://yoursite.com/2018/06/06/Linear-Algebra-Learning-Notes/</id>
     <published>2018-06-05T17:30:59.000Z</published>
-    <updated>2018-06-06T23:26:29.542Z</updated>
+    <updated>2018-06-08T09:07:32.412Z</updated>
     
-    <content type="html"><![CDATA[<p>Brief notes of MIT open course Linear Algebra. Learning Period: June 6th to June 21st(2018). </p><a id="more"></a><h3 id="Learning-Materials"><a href="#Learning-Materials" class="headerlink" title="Learning Materials:"></a>Learning Materials:</h3><p><a href="https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/syllabus/" target="_blank" rel="noopener">MITOpenCourseWare</a></p><h3 id="Planning-Learnning-days"><a href="#Planning-Learnning-days" class="headerlink" title="Planning Learnning days:"></a>Planning Learnning days:</h3><p><em>15days</em></p><p><em>Update several notes everyday</em></p><p>###UNIT I: Ax = b and the Four Subspaces</p><p>####The Geometry of Linear Equation</p><blockquote></blockquote><p>A major application of linear algebra is to solving systems of linear equations. This lecture presents three ways of thinking about these systems. The “row method” focuses on the individual equations, the “column method” focuses on combining the columns, and the “matrix method” is an even more compact and powerful way of describing systems of linear equations.</p>]]></content>
+    <content type="html"><![CDATA[<p>Brief notes of MIT open course Linear Algebra. Learning Period: June 6th to June 21st(2018). </p><a id="more"></a><h3 id="Learning-Materials"><a href="#Learning-Materials" class="headerlink" title="Learning Materials:"></a>Learning Materials:</h3><p><a href="https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/syllabus/" target="_blank" rel="noopener">MITOpenCourseWare</a></p><h3 id="Planning-Learnning-days"><a href="#Planning-Learnning-days" class="headerlink" title="Planning Learnning days:"></a>Planning Learnning days:</h3><p><em>15days</em></p><p><em>Update several notes everyday</em></p><h3 id="UNIT-I-Ax-b-and-the-Four-Subspaces"><a href="#UNIT-I-Ax-b-and-the-Four-Subspaces" class="headerlink" title="UNIT I: Ax = b and the Four Subspaces"></a>UNIT I: Ax = b and the Four Subspaces</h3><h4 id="The-Geometry-of-Linear-Equation"><a href="#The-Geometry-of-Linear-Equation" class="headerlink" title="The Geometry of Linear Equation"></a>The Geometry of Linear Equation</h4><blockquote></blockquote><p>A major application of linear algebra is to solving systems of linear equations. This lecture presents three ways of thinking about these systems. The “row method” focuses on the individual equations, the “column method” focuses on combining the columns, and the “matrix method” is an even more compact and powerful way of describing systems of linear equations.</p>]]></content>
     
     <summary type="html">
     
