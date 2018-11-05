@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-31T23:54:07.055Z</updated>
+  <updated>2018-11-05T18:06:56.231Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Leetcode Breif Summary and updated solutions</title>
+    <link href="http://yoursite.com/2018/11/05/Leetcode-Solutions/"/>
+    <id>http://yoursite.com/2018/11/05/Leetcode-Solutions/</id>
+    <published>2018-11-05T17:57:59.000Z</published>
+    <updated>2018-11-05T18:06:56.231Z</updated>
+    
+    <content type="html"><![CDATA[<p>A summary of leetcode submissions. Some of them are old submissions. Try to keep them up to date.</p><a id="more"></a><p>#Intro<br>I started practicing doing some easy leetcode problems in 2018 summer. When I first started, without concerning about the time/space complexity, I came up with some … really stupid solutions. I record them here and I’ll review the problems &amp; solutions in the future. </p><p>#Q&amp;A</p><p>##Question 21: Merge two sorted List<br>Q: Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.</p><p>Example:<br>Input: 1-&gt;2-&gt;4, 1-&gt;3-&gt;4</p><p>Output: 1-&gt;1-&gt;2-&gt;3-&gt;4-&gt;4</p><p>###My solution:<br>    /**</p><pre><code> * Definition for singly-linked list. * public class ListNode { * int val; * ListNode next; * ListNode(int x) { val = x; } * } */class Solution {public ListNode mergeTwoLists(ListNode l1, ListNode l2) {    if(l1 == null)    // If the l1 is null, simply return l2        return l2;    if(l2 == null)    // If the l2 is null, return l1        return l1;    ListNode mergeList = new ListNode(0);    // create a new listNode to store the merge list    ListNode headerNode = mergeList;    // create a headerNode to record the first position in the list    while(l1 != null || l2 != null){    // iterate through l1 and l2        if(l1 == null){            mergeList.next = l2;            mergeList = mergeList.next;            l2 = l2.next;        }        else if(l2 == null){            mergeList.next = l1;            mergeList = mergeList.next;            l1 = l1.next;        }        else if(l1.val &lt; l2.val){            mergeList.next = l1;            mergeList = mergeList.next;            l1 = l1.next;         }         else if(l1.val &gt;= l2.val){            mergeList.next = l2;            mergeList = mergeList.next;            l2 = l2.next;        }    }    return headerNode.next;}}</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;A summary of leetcode submissions. Some of them are old submissions. Try to keep them up to date.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="leetcode" scheme="http://yoursite.com/tags/leetcode/"/>
+    
+  </entry>
   
   <entry>
     <title>Linear Algebra Learning Notes</title>

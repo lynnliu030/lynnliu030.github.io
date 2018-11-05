@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="leetcode," />
 
 
 
@@ -81,16 +81,18 @@
 
 
 
-<meta name="description" content="Always A Learner">
-<meta property="og:type" content="website">
-<meta property="og:title" content="La Belle Aurore">
-<meta property="og:url" content="http://yoursite.com/tags/github/index.html">
+<meta name="description" content="A summary of leetcode submissions. Some of them are old submissions. Try to keep them up to date.">
+<meta name="keywords" content="leetcode">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Leetcode Breif Summary and updated solutions">
+<meta property="og:url" content="http://yoursite.com/2018/11/05/Leetcode-Solutions/index.html">
 <meta property="og:site_name" content="La Belle Aurore">
-<meta property="og:description" content="Always A Learner">
+<meta property="og:description" content="A summary of leetcode submissions. Some of them are old submissions. Try to keep them up to date.">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-11-05T18:06:56.231Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="La Belle Aurore">
-<meta name="twitter:description" content="Always A Learner">
+<meta name="twitter:title" content="Leetcode Breif Summary and updated solutions">
+<meta name="twitter:description" content="A summary of leetcode submissions. Some of them are old submissions. Try to keep them up to date.">
 
 
 
@@ -120,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/github/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/11/05/Leetcode-Solutions/"/>
 
 
 
 
 
-  <title>Tag: github | La Belle Aurore</title>
+  <title>Leetcode Breif Summary and updated solutions | La Belle Aurore</title>
   
 
 
@@ -145,7 +147,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -259,54 +261,198 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>github<small>Tag</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/05/Leetcode-Solutions/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Lynn Liu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="La Belle Aurore">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2018/06/05/Creating-Personal-Blog-Using-Github-Hexo/" itemprop="url">
-              
-                <span itemprop="name">Creating Personal Blog Using Github + Hexo</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">Leetcode Breif Summary and updated solutions</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-06-05T19:02:34-05:00"
-              content="2018-06-05" >
-          06-05
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-05T11:57:59-06:00">
+                2018-11-05
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    </div>
+      
 
+      
+        <p>A summary of leetcode submissions. Some of them are old submissions. Try to keep them up to date.</p>
+<a id="more"></a>
+<p>#Intro<br>I started practicing doing some easy leetcode problems in 2018 summer. When I first started, without concerning about the time/space complexity, I came up with some … really stupid solutions. I record them here and I’ll review the problems &amp; solutions in the future. </p>
+<p>#Q&amp;A</p>
+<p>##Question 21: Merge two sorted List<br>Q: Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.</p>
+<p>Example:<br>Input: 1-&gt;2-&gt;4, 1-&gt;3-&gt;4</p>
+<p>Output: 1-&gt;1-&gt;2-&gt;3-&gt;4-&gt;4</p>
+<p>###My solution:<br>    /**</p>
+<pre><code> * Definition for singly-linked list.
+ * public class ListNode {
+ * int val;
+ * ListNode next;
+ * ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+
+public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+    if(l1 == null)    // If the l1 is null, simply return l2
+        return l2;
+    if(l2 == null)    // If the l2 is null, return l1
+        return l1;
+
+    ListNode mergeList = new ListNode(0);    // create a new listNode to store the merge list
+    ListNode headerNode = mergeList;    // create a headerNode to record the first position in the list
+
+    while(l1 != null || l2 != null){    // iterate through l1 and l2
+        if(l1 == null){
+            mergeList.next = l2;
+            mergeList = mergeList.next;
+            l2 = l2.next;
+        }
+
+        else if(l2 == null){
+            mergeList.next = l1;
+            mergeList = mergeList.next;
+            l1 = l1.next;
+        }
+        else if(l1.val &lt; l2.val){
+            mergeList.next = l1;
+            mergeList = mergeList.next;
+            l1 = l1.next; 
+        } 
+        else if(l1.val &gt;= l2.val){
+            mergeList.next = l2;
+            mergeList = mergeList.next;
+            l2 = l2.next;
+        }
+    }
+    return headerNode.next;
+}
+}
+</code></pre>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/leetcode/" rel="tag"># leetcode</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/06/06/Linear-Algebra-Learning-Notes/" rel="next" title="Linear Algebra Learning Notes">
+                <i class="fa fa-chevron-left"></i> Linear Algebra Learning Notes
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -314,6 +460,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -547,6 +697,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
