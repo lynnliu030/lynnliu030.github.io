@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="La Belle Aurore">
 <meta property="og:description" content="A summary of leetcode submissions. Some of them are old submissions. Try to keep them up to date.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-11-05T18:25:13.844Z">
+<meta property="og:updated_time" content="2018-11-07T05:03:24.889Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Leetcode Breif Summary and updated solutions">
 <meta name="twitter:description" content="A summary of leetcode submissions. Some of them are old submissions. Try to keep them up to date.">
@@ -422,7 +422,32 @@ for (int i = 0; i &lt; len; i++) {
         return j;
     }
 }
-</code></pre>
+</code></pre><h2 id="Question-27-Remove-Element"><a href="#Question-27-Remove-Element" class="headerlink" title="Question 27: Remove Element"></a>Question 27: Remove Element</h2><p>Given an array nums and a value val, remove all instances of that value in-place and return the new length.<br>Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.</p>
+<p>The order of elements can be changed. It doesn’t matter what you leave beyond the new length.</p>
+<p><strong>Example 1</strong>:<br>Given nums = [3,2,2,3], val = 3,</p>
+<p>Your function should return length = 2, with the first two elements of nums being 2.</p>
+<p>It doesn’t matter what you leave beyond the returned length.</p>
+<p><strong>Example 2</strong>:<br>Given nums = [0,1,2,2,3,0,4,2], val = 2,</p>
+<p>Your function should return length = 5, with the first five elements of nums containing 0, 1, 3, 0, and 4.</p>
+<p>Note that the order of those five elements can be arbitrary.<br>It doesn’t matter what values are set beyond the returned length.</p>
+<h3 id="My-solution-1"><a href="#My-solution-1" class="headerlink" title="My solution"></a>My solution</h3><pre><code>class Solution {
+    public int removeElement(int[] nums, int val) {
+        if(nums == null || nums.length == 0)
+            return -1;
+
+        int j = 0;
+        for(int i = 0; i &lt; nums.length; i++){
+            if(nums[i] != val){
+                nums[j] = nums[i];
+                j++;
+            }
+        }
+        return j;
+    }
+}
+</code></pre><p>Idea is pretty similar to the previous one. Add some possible error checking. Runtime: 4ms.</p>
+<p>OMG I HATE LINEAR ALGEBRA. :(</p>
+
       
     </div>
     
@@ -610,7 +635,7 @@ for (int i = 0; i &lt; len; i++) {
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intro"><span class="nav-number">1.</span> <span class="nav-text">Intro</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Q-amp-A"><span class="nav-number">2.</span> <span class="nav-text">Q&amp;A</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-21-Merge-two-sorted-List"><span class="nav-number">2.1.</span> <span class="nav-text">Question 21: Merge two sorted List</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-Old-Submission"><span class="nav-number">2.1.1.</span> <span class="nav-text">My solution: (Old Submission)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-26-Remove-Duplicates-from-Sorted-Array"><span class="nav-number">2.2.</span> <span class="nav-text">Question 26: Remove Duplicates from Sorted Array</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution"><span class="nav-number">2.2.1.</span> <span class="nav-text">My solution:</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intro"><span class="nav-number">1.</span> <span class="nav-text">Intro</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Q-amp-A"><span class="nav-number">2.</span> <span class="nav-text">Q&amp;A</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-21-Merge-two-sorted-List"><span class="nav-number">2.1.</span> <span class="nav-text">Question 21: Merge two sorted List</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-Old-Submission"><span class="nav-number">2.1.1.</span> <span class="nav-text">My solution: (Old Submission)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-26-Remove-Duplicates-from-Sorted-Array"><span class="nav-number">2.2.</span> <span class="nav-text">Question 26: Remove Duplicates from Sorted Array</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution"><span class="nav-number">2.2.1.</span> <span class="nav-text">My solution:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-27-Remove-Element"><span class="nav-number">2.3.</span> <span class="nav-text">Question 27: Remove Element</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-1"><span class="nav-number">2.3.1.</span> <span class="nav-text">My solution</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
