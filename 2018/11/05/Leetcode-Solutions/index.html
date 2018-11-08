@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="La Belle Aurore">
 <meta property="og:description" content="A summary of leetcode submissions. Some of them are old submissions. Try to keep them up to date.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-11-08T02:30:50.330Z">
+<meta property="og:updated_time" content="2018-11-08T02:33:03.493Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Leetcode Breif Summary and updated solutions">
 <meta name="twitter:description" content="A summary of leetcode submissions. Some of them are old submissions. Try to keep them up to date.">
@@ -460,12 +460,12 @@ for (int i = 0; i &lt; len; i++) {
     public int strStr(String haystack, String needle) {
         if(needle.isEmpty() || needle == null)
             return 0;
-        if(!haystack.contains(needle))
-            return -1;        
-        for(int i = 0; i &lt; haystack.length(); i++){
-            if(haystack.charAt(i) == needle.charAt(0))
-                if(haystack.substring(i, i + needle.length()).equals(needle))
-                    return i;
+        if(haystack.contains(needle)){        
+            for(int i = 0; i &lt; haystack.length(); i++){
+                if(haystack.charAt(i) == needle.charAt(0))
+                    if(haystack.substring(i, i + needle.length()).equals(needle))
+                        return i;
+            }
         }
         return -1;
     }
