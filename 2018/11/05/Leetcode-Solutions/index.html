@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="La Belle Aurore">
 <meta property="og:description" content="A summary of leetcode submissions. Some of them are old submissions. Try to keep them up to date.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-11-08T02:05:36.937Z">
+<meta property="og:updated_time" content="2018-11-08T02:30:50.330Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Leetcode Breif Summary and updated solutions">
 <meta name="twitter:description" content="A summary of leetcode submissions. Some of them are old submissions. Try to keep them up to date.">
@@ -456,7 +456,7 @@ for (int i = 0; i &lt; len; i++) {
 <p>Input: haystack = “aaaaa”, needle = “bba”</p>
 <p>Output: -1</p>
 <p>Clarification:<br>What should we return when needle is an empty string? This is a great question to ask during an interview.<br>For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C’s strstr() and Java’s indexOf().</p>
-<h3 id="My-solution-First-Submission"><a href="#My-solution-First-Submission" class="headerlink" title="My solution (First Submission)"></a>My solution (First Submission)</h3><h4 id="Runtime-3ms-100"><a href="#Runtime-3ms-100" class="headerlink" title="Runtime: 3ms (100%)"></a>Runtime: 3ms (100%)</h4><pre><code>class Solution {
+<h3 id="My-solution-First-Submission"><a href="#My-solution-First-Submission" class="headerlink" title="My solution (First Submission)"></a>My solution (First Submission)</h3><pre><code>class Solution {
     public int strStr(String haystack, String needle) {
         if(needle.isEmpty() || needle == null)
             return 0;
@@ -483,7 +483,29 @@ for (int i = 0; i &lt; len; i++) {
 <li><p>TO ACCESS STRING LENGTH: USE LENGTH()!!! </p>
 </li>
 </ol>
+<h4 id="Second-submission"><a href="#Second-submission" class="headerlink" title="Second submission"></a>Second submission</h4><pre><code>class Solution {
+    public int strStr(String haystack, String needle) {
+        if(needle.isEmpty())// or use needle.length() == 0 here
+            return 0;
 
+        //another solution that is possible
+        int needleLength = needle.length();
+        int stackLength = haystack.length();
+
+        if(stackLength &lt; needleLength)
+            return -1;
+
+        //set a point/also avoid index out of bound
+        int BP =  stackLength - needleLength;
+        for(int i = 0; i &lt;= BP; i++){
+            //if(haystack.charAt(i) == needle.charAt(0))
+                if(haystack.substring(i, i + needleLength).equals(needle))
+                    return i;
+        }
+        return -1;  // if occurrence is not found
+    }
+}
+</code></pre>
       
     </div>
     
@@ -671,7 +693,7 @@ for (int i = 0; i &lt; len; i++) {
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intro"><span class="nav-number">1.</span> <span class="nav-text">Intro</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Q-amp-A"><span class="nav-number">2.</span> <span class="nav-text">Q&amp;A</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-21-Merge-two-sorted-List"><span class="nav-number">2.1.</span> <span class="nav-text">Question 21: Merge two sorted List</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-Old-Submission"><span class="nav-number">2.1.1.</span> <span class="nav-text">My solution: (Old Submission)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-26-Remove-Duplicates-from-Sorted-Array"><span class="nav-number">2.2.</span> <span class="nav-text">Question 26: Remove Duplicates from Sorted Array</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution"><span class="nav-number">2.2.1.</span> <span class="nav-text">My solution:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-27-Remove-Element"><span class="nav-number">2.3.</span> <span class="nav-text">Question 27: Remove Element</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-1"><span class="nav-number">2.3.1.</span> <span class="nav-text">My solution</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-28-Implement-strStr"><span class="nav-number">2.4.</span> <span class="nav-text">Question 28: Implement strStr()</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-First-Submission"><span class="nav-number">2.4.1.</span> <span class="nav-text">My solution (First Submission)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Runtime-3ms-100"><span class="nav-number">2.4.1.1.</span> <span class="nav-text">Runtime: 3ms (100%)</span></a></li></ol></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intro"><span class="nav-number">1.</span> <span class="nav-text">Intro</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Q-amp-A"><span class="nav-number">2.</span> <span class="nav-text">Q&amp;A</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-21-Merge-two-sorted-List"><span class="nav-number">2.1.</span> <span class="nav-text">Question 21: Merge two sorted List</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-Old-Submission"><span class="nav-number">2.1.1.</span> <span class="nav-text">My solution: (Old Submission)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-26-Remove-Duplicates-from-Sorted-Array"><span class="nav-number">2.2.</span> <span class="nav-text">Question 26: Remove Duplicates from Sorted Array</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution"><span class="nav-number">2.2.1.</span> <span class="nav-text">My solution:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-27-Remove-Element"><span class="nav-number">2.3.</span> <span class="nav-text">Question 27: Remove Element</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-1"><span class="nav-number">2.3.1.</span> <span class="nav-text">My solution</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-28-Implement-strStr"><span class="nav-number">2.4.</span> <span class="nav-text">Question 28: Implement strStr()</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-First-Submission"><span class="nav-number">2.4.1.</span> <span class="nav-text">My solution (First Submission)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Second-submission"><span class="nav-number">2.4.1.1.</span> <span class="nav-text">Second submission</span></a></li></ol></li></ol></li></ol></li></ol></div>
             
 
           </div>
