@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="La Belle Aurore">
 <meta property="og:description" content="A summary of leetcode submissions. Some of them are old submissions. Try to keep them up to date.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-11-08T02:33:03.493Z">
+<meta property="og:updated_time" content="2018-11-09T11:00:31.788Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Leetcode Breif Summary and updated solutions">
 <meta name="twitter:description" content="A summary of leetcode submissions. Some of them are old submissions. Try to keep them up to date.">
@@ -368,23 +368,13 @@ public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
     ListNode headerNode = mergeList;    // create a headerNode to record the first position in the list
 
     while(l1 != null || l2 != null){    // iterate through l1 and l2
-        if(l1 == null){
-            mergeList.next = l2;
-            mergeList = mergeList.next;
-            l2 = l2.next;
-        }
 
-        else if(l2 == null){
-            mergeList.next = l1;
-            mergeList = mergeList.next;
-            l1 = l1.next;
-        }
-        else if(l1.val &lt; l2.val){
+        else if(l1.val &lt; l2.val || l2 == null){
             mergeList.next = l1;
             mergeList = mergeList.next;
             l1 = l1.next; 
         } 
-        else if(l1.val &gt;= l2.val){
+        else if(l1.val &gt;= l2.val || l1 == null){
             mergeList.next = l2;
             mergeList = mergeList.next;
             l2 = l2.next;
@@ -505,7 +495,24 @@ for (int i = 0; i &lt; len; i++) {
         return -1;  // if occurrence is not found
     }
 }
-</code></pre>
+</code></pre><h2 id="Question-35-Search-Insert-Position"><a href="#Question-35-Search-Insert-Position" class="headerlink" title="Question 35: Search Insert Position"></a>Question 35: Search Insert Position</h2><p>Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.</p>
+<p>You may assume no duplicates in the array.</p>
+<p>Example 1:</p>
+<p>Input: [1,3,5,6], 5</p>
+<p>Output: 2</p>
+<p>Example 2:</p>
+<p>Input: [1,3,5,6], 2</p>
+<p>Output: 1</p>
+<p>Example 3:</p>
+<p>Input: [1,3,5,6], 7</p>
+<p>Output: 4</p>
+<p>Example 4:</p>
+<p>Input: [1,3,5,6], 0</p>
+<p>Output: 0</p>
+<h3 id="My-solution-2"><a href="#My-solution-2" class="headerlink" title="My solution"></a>My solution</h3><p>Approach: Binary Search we just learn (not quite familiar with)</p>
+<p>But I first thought about to iterate through the array.</p>
+<p>I provide two different methods below… </p>
+
       
     </div>
     
@@ -693,7 +700,7 @@ for (int i = 0; i &lt; len; i++) {
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intro"><span class="nav-number">1.</span> <span class="nav-text">Intro</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Q-amp-A"><span class="nav-number">2.</span> <span class="nav-text">Q&amp;A</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-21-Merge-two-sorted-List"><span class="nav-number">2.1.</span> <span class="nav-text">Question 21: Merge two sorted List</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-Old-Submission"><span class="nav-number">2.1.1.</span> <span class="nav-text">My solution: (Old Submission)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-26-Remove-Duplicates-from-Sorted-Array"><span class="nav-number">2.2.</span> <span class="nav-text">Question 26: Remove Duplicates from Sorted Array</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution"><span class="nav-number">2.2.1.</span> <span class="nav-text">My solution:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-27-Remove-Element"><span class="nav-number">2.3.</span> <span class="nav-text">Question 27: Remove Element</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-1"><span class="nav-number">2.3.1.</span> <span class="nav-text">My solution</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-28-Implement-strStr"><span class="nav-number">2.4.</span> <span class="nav-text">Question 28: Implement strStr()</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-First-Submission"><span class="nav-number">2.4.1.</span> <span class="nav-text">My solution (First Submission)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Second-submission"><span class="nav-number">2.4.1.1.</span> <span class="nav-text">Second submission</span></a></li></ol></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intro"><span class="nav-number">1.</span> <span class="nav-text">Intro</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Q-amp-A"><span class="nav-number">2.</span> <span class="nav-text">Q&amp;A</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-21-Merge-two-sorted-List"><span class="nav-number">2.1.</span> <span class="nav-text">Question 21: Merge two sorted List</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-Old-Submission"><span class="nav-number">2.1.1.</span> <span class="nav-text">My solution: (Old Submission)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-26-Remove-Duplicates-from-Sorted-Array"><span class="nav-number">2.2.</span> <span class="nav-text">Question 26: Remove Duplicates from Sorted Array</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution"><span class="nav-number">2.2.1.</span> <span class="nav-text">My solution:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-27-Remove-Element"><span class="nav-number">2.3.</span> <span class="nav-text">Question 27: Remove Element</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-1"><span class="nav-number">2.3.1.</span> <span class="nav-text">My solution</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-28-Implement-strStr"><span class="nav-number">2.4.</span> <span class="nav-text">Question 28: Implement strStr()</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-First-Submission"><span class="nav-number">2.4.1.</span> <span class="nav-text">My solution (First Submission)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Second-submission"><span class="nav-number">2.4.1.1.</span> <span class="nav-text">Second submission</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Question-35-Search-Insert-Position"><span class="nav-number">2.5.</span> <span class="nav-text">Question 35: Search Insert Position</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#My-solution-2"><span class="nav-number">2.5.1.</span> <span class="nav-text">My solution</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
