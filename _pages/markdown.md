@@ -6,8 +6,6 @@ redirect_from:
   - /markdown.html
 ---
 
-Interest
------
 * I am a big fan of [FC Bayern](https://fcbayern.com/en) (since 2017!), and yes, I do play soccer, most of the time I play goalkeeper.  
 
 * I can play the piano (started to learn when I was 4) and a little bit [Guzheng](https://www.seattleguzheng.com/history#:~:text=The%20guzheng%2C%20or%20gu%20zheng,and%20the%20Vietnamese%20%C4%91%C3%A0n%20tranh.) and [Hulusi](https://en.wikipedia.org/wiki/Hulusi) which are all traditional Chinese instruments. (Btw, I am still on my way learning how to play guitar!) My favorite pianists are Vladimir Samoylovich Horowitz and Evgeny Kissin. 
