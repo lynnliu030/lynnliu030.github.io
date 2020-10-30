@@ -23,6 +23,8 @@ Experience
 	* I was an undergrad TA for CS577 (Intro to Algorithm) in Spr 2020 and Summ 2020, and right now (Fall 2020) I am an undergrad TA for CS564 (Database Management System).
 * **Undergrad Research Assistant @[ Wisconsin Institute for Discovery](https://wid.wisc.edu/)**
 	* I am working with a wonderful group of people in the [Dairy Brain](https://dairybrain.wisc.edu/team/) project, an analytics platform that aggregates large quantities of data that are used to evaluate and predict the performance of dairy cows.  
+* **Undergrad Research Assistant @ [WISR](https://wisr.cs.wisc.edu/)**
+	* I am working with Prof.Aditya Akella and his PostDoc student on project: Fast and Resource Efficient Hyperparameter Exploration with Approximate Stochastic Gradient Descend. 
 
 Skills
 ------
