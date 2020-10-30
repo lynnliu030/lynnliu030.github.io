@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+-----
 * B.S. in Computer Science & Math & Statistics, University of Wisconsin-Madison, 2021 Fall (expected) 
 	* Honors in L&S
 	* Honors in Comp Sci 
@@ -25,8 +25,17 @@ Experience
 	* I am working with a wonderful group of people in the [Dairy Brain](https://dairybrain.wisc.edu/team/) project, an analytics platform that aggregates large quantities of data that are used to evaluate and predict the performance of dairy cows.  
 
 Skills
-======
+------
 * Familiar: Java, Python, C
 * Moderate familarity: HTML/CSS, SQL, Pytorch, Ray 
 * Some exposure: Apache Spark, Apache Hadoop
+
+Awards
+------
+* CS Department 2019 Golden Brick Award 
+* Sophomore Research Fellowship
+* Welton Sophomore Honors Summer Scholarship
+* CRA-W GHC Research Scholar 
+* UW-Madison 19-20 Grace Hopper Celebration Scholarship
+* Dean's List (4 semester) 
 
