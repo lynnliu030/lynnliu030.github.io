@@ -13,4 +13,5 @@ Hi, this is Lynn :) I am currently a junior majoring in Computer Science, Math a
 
 News
 ---
+* Taught the WACM Explains: Basic Linux Workshop VIRTUALLY in September again! 
 * Served as a student volunteer in SIGCOMM 2020! Glad to help with events such as the virtual tour of NYC using Minecraft. 
