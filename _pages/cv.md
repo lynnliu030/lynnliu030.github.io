@@ -17,15 +17,21 @@ Education
 
 Experience
 -----
+* **Undergrad Research Assistant @[ Wisconsin Institute for Discovery](https://wid.wisc.edu/)**
+	* I am working with a wonderful group of people in the [Dairy Brain](https://dairybrain.wisc.edu/team/) project, an analytics platform that aggregates large quantities of data that are used to evaluate and predict the performance of dairy cows.  
+* **Undergrad Research Assistant @ [WISR](https://wisr.cs.wisc.edu/)**
+	* I am working with [Prof. Aditya Akella](http://pages.cs.wisc.edu/~akella/) and his PostDoc & PhD students on project related to hyperparameter exploration. 
+* **Undergrad Research Assistant**
+	* I will also be working as an undergrad researcher under the supervision of [Prof. Shivaram Venkataraman](https://shivaram.org/) starting from Spring 2021. 
+* **WISCERS Fellow @ [CS Dept](https://www.cs.wisc.edu/), University of Wisconsin - Madison**
+	* I am accepted as one of the Wisconsin Science and Computing Emerging Research Stars ([WISCERS](https://wiscers.cs.wisc.edu/)) fellows, starting from Spring 2021.  
+
+Extracurricular
+-----
 * **Activity Chair & Undergrad Representative @ [WACM](https://wacm.cs.wisc.edu/)** 
 	* Previously, I taught workshops related to [Linux Basics](https://wacm.cs.wisc.edu/events.html) & [Machine Learning](https://github.com/lynnliu030/wacm-ml-workshop) to around 120-150 students, and hosted booths in Wisconsin Science Festival. I also helped with organizing workshops to teach young kids programming using the AppInventor platform. 
 * **Undergrad Teaching Assistant @ [CS Dept](https://www.cs.wisc.edu/), University of Wisconsin - Madison**
 	* I was an undergrad TA for CS577 (Intro to Algorithm) in Spr 2020 and Summ 2020, and right now (Fall 2020) I am an undergrad TA for CS564 (Database Management System).
-* **Undergrad Research Assistant @[ Wisconsin Institute for Discovery](https://wid.wisc.edu/)**
-	* I am working with a wonderful group of people in the [Dairy Brain](https://dairybrain.wisc.edu/team/) project, an analytics platform that aggregates large quantities of data that are used to evaluate and predict the performance of dairy cows.  
-* **Undergrad Research Assistant @ [WISR](https://wisr.cs.wisc.edu/)**
-	* I am working with Prof.Aditya Akella and his PostDoc student on project: Fast and Resource Efficient Hyperparameter Exploration with Approximate Stochastic Gradient Descend. 
-
 Skills
 ------
 * Familiar: Java, Python, C
@@ -39,5 +45,5 @@ Awards
 * Welton Sophomore Honors Summer Scholarship
 * CRA-W GHC Research Scholar 
 * UW-Madison 19-20 Grace Hopper Celebration Scholarship
-* Dean's List (4 semester) 
+* Dean's List (5 semester) 
 
