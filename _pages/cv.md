@@ -24,7 +24,7 @@ Experience
 * **Undergrad Research Assistant**
 	* I will also be working as an undergrad researcher under the supervision of [Prof. Shivaram Venkataraman](https://shivaram.org/) starting from Spring 2021. 
 * **WISCERS Fellow @ [CS Dept](https://www.cs.wisc.edu/), University of Wisconsin - Madison**
-	* I am accepted as one of the Wisconsin Science and Computing Emerging Research Stars ([WISCERS](https://wiscers.cs.wisc.edu/)) fellows, starting from Spring 2021.  
+	* I am accepted as one of the Wisconsin Science and Computing Emerging Research Stars ([WISCERS](https://wiscers.cs.wisc.edu/)) fellows, starting from Spring 2021. This is an immersive research experience (IRE) in computing supported by [Google Research’s exploreCSR ](research.google/outreach/exploreCSR)
 
 Extracurricular
 -----
