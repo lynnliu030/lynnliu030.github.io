@@ -36,6 +36,9 @@ Extracurricular
 	* Previously, I taught workshops related to [Linux Basics](https://wacm.cs.wisc.edu/events.html) & [Machine Learning](https://github.com/lynnliu030/wacm-ml-workshop) to around 120-150 students, and hosted booths in Wisconsin Science Festival. I also helped with organizing workshops to teach young kids programming using the AppInventor platform. 
 * **Undergrad Teaching Assistant @ [CS Dept](https://www.cs.wisc.edu/), University of Wisconsin - Madison**
 	* I was an undergrad TA for CS577 (Intro to Algorithm) in Spr 2020 and Summ 2020, and CS564 (Database Management System) in Fall 2020.
+
+* **Member @ [The Computer Sciences Diversity, Equity and Inclusion committee](https://www.cs.wisc.edu/), University of Wisconsin - Madison**
+	* The committee is focused on expanding participation from underrepresented groups in computer sciences, and improving the climate in the Computer Sciences Department at UW-Madison. Works include generating, reading, and commenting on ideas to improve diversity and climate. 
 	
 Skills
 ------
