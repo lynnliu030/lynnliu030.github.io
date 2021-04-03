@@ -38,7 +38,7 @@ Extracurricular
 	* I was an undergrad TA for CS577 (Intro to Algorithm) in Spr 2020 and Summ 2020, and CS564 (Database Management System) in Fall 2020.
 
 * **Member @ [The Computer Sciences Diversity, Equity and Inclusion committee](https://www.cs.wisc.edu/), University of Wisconsin - Madison**
-	* The committee is focused on expanding participation from underrepresented groups in computer sciences, and improving the climate in the Computer Sciences Department at UW-Madison. Works include generating, reading, and commenting on ideas to improve diversity and climate. 
+	* I am part of the UW-Madison CS Diversity, Equity, and Inclusion committee. The committee focuses on expanding participation from underrepresented groups in computer sciences, and improving the climate in the Computer Sciences Department at UW-Madison. My works include generating, reading, and commenting on ideas to improve diversity and climate. 
 	
 Skills
 ------
@@ -48,7 +48,7 @@ Skills
 
 Awards
 ------
-* 2021 Ginsberg Family Award Winner (from International Student Services)
+* 2021 Ginsberg Family Award Winner (from International Student Services) 
 * CS Department 2019 Golden Brick Award 
 * Sophomore Research Fellowship
 * Welton Sophomore Honors Summer Scholarship
