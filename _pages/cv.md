@@ -48,6 +48,7 @@ Skills
 
 Awards
 ------
+* NSDI ‘21 Diversity Grant 
 * 2021 Ginsberg Family Award Winner (from International Student Services) 
 * CS Department 2019 Golden Brick Award 
 * Sophomore Research Fellowship
