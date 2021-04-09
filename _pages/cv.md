@@ -48,6 +48,7 @@ Skills
 
 Awards
 ------
+* 2021 Hilldale Undergraduate/Faculty Research Fellowship
 * NSDI ‘21 Diversity Grant 
 * 2021 Ginsberg Family Award Winner (from International Student Services) 
 * CS Department 2019 Golden Brick Award 
