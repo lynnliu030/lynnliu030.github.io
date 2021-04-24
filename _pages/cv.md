@@ -26,9 +26,13 @@ Experience
 * **WISCERS Fellow @ [CS Dept](https://www.cs.wisc.edu/), University of Wisconsin - Madison**
 	* I am accepted as one of the Wisconsin Science and Computing Emerging Research Stars ([WISCERS](https://wiscers.cs.wisc.edu/)) fellows, starting from Spring 2021. This is an immersive research experience (IRE) in computing supported by [Google Research’s exploreCSR ](research.google/outreach/exploreCSR). 
 	* I am working on an independent project under the supervision of [Prof. Shivaram Venkataraman](https://shivaram.org/)  and his graduate students. 
-* **Computer Science Research Mentorship Program (CSRMP) Participant @ [Google](https://research.google/outreach/csrmp/)**
+* **20-21 Computer Science Research Mentorship Program (CSRMP) Participant @ [Google](https://research.google/outreach/csrmp/)**
 	* I am accepted to the 2020-2021 class of Google’s CSRMP, where students in parallel academic stages and research areas are grouped into virtual mentorship pods with a Google mentor. 
 	* Mentor: Michael Nechyba. 
+
+* **Participant @ Cornell, Maryland, Max Planck Pre-doctoral School, [CMMRS 2021](https://cmmrs.mpi-sws.org/),**
+
+
 
 Extracurricular
 -----
