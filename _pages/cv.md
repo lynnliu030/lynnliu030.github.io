@@ -52,6 +52,7 @@ Skills
 
 Awards
 ------
+* 21-22 Gerald W. and Tui G. Hedstrom Scholarship
 * 2021 Hilldale Undergraduate/Faculty Research Fellowship
 * NSDI ‘21 Diversity Grant 
 * 2021 Ginsberg Family Award Winner (from International Student Services) 
