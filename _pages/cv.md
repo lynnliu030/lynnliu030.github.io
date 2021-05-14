@@ -52,6 +52,7 @@ Skills
 
 Awards
 ------
+* CS Department 2021 Golden Brick Award 
 * Dewitt Undergraduate Scholarship 
 * 21-22 Gerald W. and Tui G. Hedstrom Scholarship
 * 2021 Hilldale Undergraduate/Faculty Research Fellowship
