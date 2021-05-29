@@ -12,22 +12,19 @@ redirect_from:
 Education
 -----
 * B.S. in Computer Science & Math & Statistics, University of Wisconsin-Madison (2018-present)
-	* Honors in L&S
 	* Honors in Comp Sci 
 
 Experience
 -----
-* **Undergrad Research Assistant @[ Wisconsin Institute for Discovery](https://wid.wisc.edu/)**
-	* I am working with a wonderful group of people in the [Dairy Brain](https://dairybrain.wisc.edu/team/) project, an analytics platform that aggregates large quantities of data that are used to evaluate and predict the performance of dairy cows.  
 * **Undergrad Research Assistant @ [WISR](https://wisr.cs.wisc.edu/)**
-	* I am working with [Prof. Aditya Akella](http://pages.cs.wisc.edu/~akella/) and his Postdoc & PhD students. 
+	* I have been working with [Prof. Aditya Akella](http://pages.cs.wisc.edu/~akella/) and his Postdoc & PhD students since Summer 2020. 
 	* In the past project, I was working on designing a scheduler that exploits approximation techniques to speed up hyperparameter exploration task. The paper is currently under review.
-	* I am now working on topics related to caching. 
+	* I am now working on a new project related to caching. 
 * **WISCERS Fellow @ [CS Dept](https://www.cs.wisc.edu/), University of Wisconsin - Madison**
-	* I am accepted as one of the Wisconsin Science and Computing Emerging Research Stars ([WISCERS](https://wiscers.cs.wisc.edu/)) fellows, starting from Spring 2021. This is an immersive research experience (IRE) in computing supported by [Google Research’s exploreCSR ](research.google/outreach/exploreCSR). 
-	* I am working on an independent project under the supervision of [Prof. Shivaram Venkataraman](https://shivaram.org/)  and his graduate students. 
+	* I am accepted as one of [WISCERS](https://wiscers.cs.wisc.edu/) fellows, starting from Spring 2021. This is a program supported by [Google Research’s exploreCSR ](research.google/outreach/exploreCSR). 
+	* I am working on an independent project related to serving graph embeddings, under the supervision of [Prof. Shivaram Venkataraman](https://shivaram.org/).
 * **20-21 Computer Science Research Mentorship Program (CSRMP) Participant @ [Google](https://research.google/outreach/csrmp/)**
-	* I am accepted to the 2020-2021 class of Google’s CSRMP, where students in parallel academic stages and research areas are grouped into virtual mentorship pods with a Google mentor. 
+	* I was accepted to the 20-21 class of Google’s CSRMP, where students are grouped into virtual mentorship pods with a Google mentor. 
 	* Mentor: Michael Nechyba. 
 
 * **Participant @ Cornell, Maryland, Max Planck Pre-doctoral School, [CMMRS 2021](https://cmmrs.mpi-sws.org/),**
@@ -42,7 +39,7 @@ Extracurricular
 	* I was an undergrad TA for CS577 (Intro to Algorithm) in Spr 2020 and Summ 2020, and CS564 (Database Management System) in Fall 2020.
 
 * **Member @ [The Computer Sciences Diversity, Equity and Inclusion committee](https://www.cs.wisc.edu/), University of Wisconsin - Madison**
-	* I am part of the UW-Madison CS Diversity, Equity, and Inclusion committee. The committee focuses on expanding participation from underrepresented groups in computer sciences, and improving the climate in the Computer Sciences Department at UW-Madison. My works include generating, reading, and commenting on ideas to improve diversity and climate. 
+	* I am part of the UW-Madison CS Diversity, Equity, and Inclusion committee. The committee focuses on expanding participation from underrepresented groups in computer sciences, and improving the climate in the Computer Sciences Department at UW-Madison. 
 	
 Skills
 ------
@@ -63,5 +60,5 @@ Awards
 * Welton Sophomore Honors Summer Scholarship
 * CRA-W GHC Research Scholar 
 * UW-Madison 19-20 Grace Hopper Celebration Scholarship
-* Dean's List (5 semester) 
+* Dean's List (6 semester) 
 
